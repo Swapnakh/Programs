@@ -24,7 +24,7 @@ public class DuplicateCharecters
             }
         }
          
-        System.out.println("Duplicate characters:");
+        System.out.println("Duplicate characters: ");
          
         //Print duplicate characters
         for(char c : map.keySet()) {

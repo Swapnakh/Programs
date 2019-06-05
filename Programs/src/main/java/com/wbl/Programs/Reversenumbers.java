@@ -20,23 +20,11 @@ public class Reversenumbers
           a = a/10;
       }
 
-      System.out.println("Reversed numbers are : "+reversenumbers);
+      System.out.println("Reversed numbers  are : "+reversenumbers);
       return(reversenumbers);
    }
    
 
 
-@Test
-public void testReverse1() {
-    System.out.println("testreverse");
-    Reversenumbers rs = new Reversenumbers();
-    Assert.assertEquals(reversemethod(156), 651);
-}
 
-@Test
-public void testReverse2() {
-    System.out.println("testreverse");
-    Reversenumbers rs = new Reversenumbers();
-    Assert.assertEquals(reversemethod(156), 156);
-}
 }
