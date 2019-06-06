@@ -1,17 +1,13 @@
 package com.wbl.Programs;
 
 
-import java.util.Scanner;
-
 import org.testng.Assert;
 import org.testng.annotations.Test;
 public class Reversenumbers
 {
    public  int reversemethod(int a)
    {
-
       int reversenumbers =0;
-    
       
       while( a != 0 )
       {
@@ -23,8 +19,4 @@ public class Reversenumbers
       System.out.println("Reversed numbers  are : "+reversenumbers);
       return(reversenumbers);
    }
-   
-
-
-
-}
+ }
