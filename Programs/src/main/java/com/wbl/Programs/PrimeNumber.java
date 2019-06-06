@@ -2,23 +2,27 @@ package com.wbl.Programs;
 
 public class PrimeNumber {
 	
-	public static boolean primeMethod(int n) {
-		 public static void main(String args[]) {    
-			 int n=5;
-	    if (n <= 1) 
-	    /      return false; 
+	public static  int primeMethod(int n) {
+		 int  m= n/2, flag=0;
+	       if (n <= 1) 
+	    	   System.out.println(" it is not prime"); 
 	         
-	        for (int i = 2; i < n; i++) {  Checking from 2 to n-1 
-	            if (n % i == 0) 
-	               return false;
-	                		break; 
+	        for (int i = 2; i < m; i++) {       //Checking from 2 to n-1 
+	                if (n % i == 0) {
+	            	 System.out.println("it is not a prime number"+n);
+	                 flag=1;
+	                 break;
+	                	
+	              }
+	            
 	        }
-	        
-	    } 
-		 System.out.println("it is a prime"+n);
-}	
-			//return true; 
-			
+	    	if (flag==0) {
+	         System.out.println("it is a prime number"+n);
+            }	
+		 return(n);
+	}
+	
+}
 	
 
 

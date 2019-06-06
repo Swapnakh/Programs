@@ -14,8 +14,8 @@ public class PrimeNumbersTest {
 	
 	@Test
 	public void test2() {
-		int a = 101;
-		int result =PrimeNumber.primeMethod(a);
-		Assert.assertTrue(true);
+		int n = 101;
+		int result =PrimeNumber.primeMethod(n);
+		Assert..assertTrue(true);
 	}
 }
