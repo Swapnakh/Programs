@@ -25,7 +25,7 @@ public class CompareTwoObjects {
 
     public static void main(String[] args) {
 
-    	CompareTwoObjects object1 = new CompareTwoObjects("test");
+    	CompareTwoObjects object1 = new CompareTwoObjects("test ");
     	CompareTwoObjects object2 = new CompareTwoObjects("test");
 
         object1.equals(object2);
