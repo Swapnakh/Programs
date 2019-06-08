@@ -8,14 +8,22 @@ public class PrimeNumbersTest {
 	@Test
 	public void test1() {
 		int a=10;
-		int result = PrimeNumber.primeMethod(a);
-		Assert.assertFalse(false);
+		int actual = PrimeNumber.primeMethod(a);
+		Assert.assertEquals(actual,3628800);
 	}
 	
 	@Test
 	public void test2() {
-		int n = 101;
-		int result =PrimeNumber.primeMethod(n);
-		Assert..assertTrue(true);
+		int n = 0;
+		int actual =PrimeNumber.primeMethod(n);
+		Assert.assertEquals(actual,1);
 	}
+	
+	@Test
+	public void test3() {
+		int n = -5;
+		int actual =PrimeNumber.primeMethod(n);
+		Assert.assertEquals(actual,);
+	}
+	
 }
