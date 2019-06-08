@@ -1,10 +1,10 @@
-package com.wbl.Programs;
+package com.wbl.programs;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class StringRecursion {
-	public String reverseMethod(String str) {
+	public  static String reverseMethod(String str) {
 
 		reverse(str);
 		return str;

@@ -1,4 +1,4 @@
-package com.wbl.Programs;
+package com.wbl.programs;
 
 public class SecondMax {
 	public static int secondMaxMethod(int a[]) {

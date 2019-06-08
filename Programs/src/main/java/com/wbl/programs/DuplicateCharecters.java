@@ -1,4 +1,4 @@
-package com.wbl.Programs;
+package com.wbl.programs;
 
 import java.util.HashMap;
 import java.util.Map;

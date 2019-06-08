@@ -1,4 +1,4 @@
-package com.wbl.Programs;
+package com.wbl.programs;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;

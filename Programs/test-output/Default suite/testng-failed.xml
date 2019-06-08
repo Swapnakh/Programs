@@ -3,12 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.wbl.Programs.FactorialTest">
+      <class name="com.wbl.programs.StringRecursionTest">
         <methods>
-          <include name="test2"/>
-          <include name="test1"/>
+          <include name="testRecursion1"/>
         </methods>
-      </class> <!-- com.wbl.Programs.FactorialTest -->
+      </class> <!-- com.wbl.programs.StringRecursionTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
