@@ -5,6 +5,8 @@
     <classes>
       <class name="com.wbl.programs.StringRecursionTest">
         <methods>
+          <include name="testRecursion"/>
+          <include name="testRecursion3"/>
           <include name="testRecursion1"/>
         </methods>
       </class> <!-- com.wbl.programs.StringRecursionTest -->

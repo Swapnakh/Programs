@@ -17,8 +17,8 @@ public class StringRecursionTest {
 	@Test
 	public void testRecursion2() {
 		System.out.println("testreverse using recursion");
-		 String actual=StringRecursion.reverseMethod("Hello World");
-		Assert.assertEquals(actual, "Hello World");
+		 String actual=StringRecursion.reverseMethod(" ");
+		Assert.assertEquals(actual, " ");
 	}
 
 	@Test
