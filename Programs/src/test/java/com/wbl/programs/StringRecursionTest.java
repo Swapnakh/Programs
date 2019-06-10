@@ -10,13 +10,29 @@ public class StringRecursionTest {
 	@Test
 	public void testRecursion1() {
 		System.out.println("testreverse ");
-        Assert.assertEquals(StringRecursion.reverseMethod("Hello World"), "dlrow olleh");
+	String actual =	StringRecursion.reverseMethod("Hello World");
+        Assert.assertEquals(actual, "dlrow olleh");
 	}
 
 	@Test
 	public void testRecursion2() {
 		System.out.println("testreverse using recursion");
-		Assert.assertEquals(StringRecursion.reverseMethod("Hello World"), "Hello World");
+		 String actual=StringRecursion.reverseMethod("Hello World");
+		Assert.assertEquals(actual, "Hello World");
 	}
 
+	@Test
+	public void testRecursion3() {
+		System.out.println("testreverse using recursion");
+		 String actual=StringRecursion.reverseMethod("HELLO WORLD");
+		Assert.assertEquals(actual, "DLROW OLLEH");
+	}
+	
+	@Test
+	public void testRecursion() {
+		System.out.println("testreverse using recursion");
+		 String actual=StringRecursion.reverseMethod("hElLo WoRlD");
+		Assert.assertEquals(actual, "DlRoW oLleh");
+	}
+	
 }
