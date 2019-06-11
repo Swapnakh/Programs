@@ -24,7 +24,16 @@ public class ReversenumbersTest {
 			Assert.assertEquals(actual,expected);
 		
 		}
+	
+	@Test
+	public  static  void testresult3(){
+		Reversenumbers rs=new Reversenumbers();
+		int  actual =	 rs.reversemethod(0);
+		int expected= 0;
+			Assert.assertEquals(actual,expected);
+		
+		}
 		
 	}
 	
-}
+

@@ -7,7 +7,7 @@ public class FibonocciSeries {
 		
 			 int  previous = 0, present = 1;
 		        System.out.print("Fibonacci Series of "+n+" numbers:");
-	 
+	        
 		        int i=1;
 		        while(i <= n)
 		        { 

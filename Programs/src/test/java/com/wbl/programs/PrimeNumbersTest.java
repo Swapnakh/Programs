@@ -25,7 +25,7 @@ public class PrimeNumbersTest {
 	public void test3() {
 		int n = -5;
 		int actual =PrimeNumber.primeMethod(n);
-		Assert.assertEquals(actual,);
+	
 	}
 	
 }
